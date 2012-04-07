@@ -1,0 +1,136 @@
+/**
+ * @file
+ * Field Styling
+ */
+
+.field /* Wrapper for any field. */
+{
+}
+
+/*
+ * Field types (Core)
+ */
+.field-type-text {
+}
+
+.field-type-text-long {
+}
+
+.field-type-text-with-summary {
+}
+
+.field-type-image {
+}
+
+.field-type-file {
+}
+
+.field-type-taxonomy-term-reference {
+}
+
+.field-type-number-integer {
+}
+
+.field-type-number-decimal {
+}
+
+.field-type-number-float {
+}
+
+.field-type-list-text {
+}
+
+.field-type-list-boolean {
+}
+
+.field-type-list-integer {
+}
+
+.field-type-list-float {
+}
+
+/*
+ * Field types (Contrib)
+ */
+.field-type-datetime /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
+{
+}
+
+.field-type-node-reference {
+}
+
+.field-type-user-reference {
+}
+
+/*
+* Named fields
+*/
+.field-name-body {
+}
+
+.field-name-field-image {
+}
+
+.field-name-field-tags {
+}
+
+.field-name-field-FIELDNAME /* Underscores in field name are replaced with dashes. */
+{
+}
+
+.node-product .field-name-field-articul .field-item {
+    color: #066213;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.node-product .field-name-field-product-image,
+.node-product .field-name-field-article-image,
+.node-product .field-name-field-size {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-bottom: 20px;
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#E8E5E5), to(#325952)); *//* Saf4+, Chrome */
+    /*background-image: -webkit-linear-gradient(top, #E8E5E5, #325952); *//* Chrome 10+, Saf5.1+, iOS 5+ */
+    /*background-image: -moz-linear-gradient(top, #E8E5E5, #325952); *//* FF3.6 */
+    /*background-image: -ms-linear-gradient(top, #E8E5E5, #325952); *//* IE10 */
+    /*background-image: -o-linear-gradient(top, #E8E5E5, #325952); *//* Opera 11.10+ */
+    /*background-image: linear-gradient(top, #E8E5E5, #325952);*/
+}
+
+.node-product .field-name-field-product-image,
+.node-product .field-name-field-article-image {
+    background: url("../images/productBgTexture.jpg") no-repeat scroll center top transparent;
+}
+
+.node-product .field-name-field-product-image .field-item
+{
+    display: inline;
+    margin: 0 10px 0 2px;
+    position: relative;
+}
+
+.node-product .field-name-field-product-image .field-item img
+{
+    border: 1px solid #C2C2C2;
+    padding: 5px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.node-product .field-name-field-article-image .field-item img
+{
+    border: 2px solid #C2C2C2;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.node-product.node-teaser .field-name-field-product-image {
+    
+}
