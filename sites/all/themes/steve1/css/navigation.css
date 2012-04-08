@@ -89,6 +89,10 @@ li a.active {
   width: 228px;
 }
 
+#main-menu li:hover {
+  background-position: left -45px;
+}
+
 #main-menu li a {
   background: url("../images/menuBgR.png") no-repeat scroll right top transparent;
   color: #FFFFFF;
@@ -99,6 +103,10 @@ li a.active {
   text-decoration: none;
   text-shadow: -1px -1px #C2C2C2;
   white-space: nowrap;
+}
+
+#main-menu a:hover {
+  background-position: right -45px;
 }
 
 #main-menu a.active {
@@ -126,24 +134,38 @@ li a.active {
 .block-menu-block {
 }
 
+#block-menu-menu-other-info .menu {
+padding: 0;
+  font-size: 18px;
+}
+
 #block-menu-menu-other-info li {
-  background: url("../images/menuBgL.png") no-repeat scroll left top transparent;
+  list-style-image: none;
+  list-style-type: none;
+  background: url("../images/menuBgL.png") no-repeat scroll left -136px transparent;
   cursor: pointer;
-  display: table-cell;
-  height: 35px;
-  padding: 0 0 0 5px;
+  height: 46px;
+  padding: 0 0 0 17px;
   position: relative;
   text-align: center;
-  width: 20%;
+}
+
+#block-menu-menu-other-info li:hover {
+  background-position: left -182px;
 }
 
 #block-menu-menu-other-info li a {
-  background: url("../images/menuBgR.png") no-repeat scroll right top transparent;
-  color: #FFFFFF;
+  background: url("../images/menuBgR.png") no-repeat scroll right -136px transparent;
+  color: #272727;
   display: block;
-  height: 27px;
-  padding: 8px 6px 0 0;
+  height: 46px;
+  line-height: 43px;
+  padding: 0 17px 0 0;
   text-decoration: none;
   text-shadow: -1px -1px #C2C2C2;
   white-space: nowrap;
+}
+
+#block-menu-menu-other-info a:hover {
+  background-position: right -182px;
 }
