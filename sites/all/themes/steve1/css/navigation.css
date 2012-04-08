@@ -54,8 +54,8 @@ li a.active {
 #navigation ul.links li,
 #navigation .content ul li {
   /* A simple method to get navigation links to appear in one line. */
-  /*float: left; *//* LTR */
-  /*padding: 0 10px 0 0; *//* LTR */
+  float: left;
+  /*padding: 0 10px 0 0;*/
   list-style-type: none;
   list-style-image: none;
 }
@@ -71,7 +71,7 @@ li a.active {
 }
 
 #main-menu ul {
-  display: table;
+  /*display: table;*/
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -82,12 +82,11 @@ li a.active {
 #main-menu li {
   background: url("../images/menuBgL.png") no-repeat scroll left top transparent;
   cursor: pointer;
-  display: table-cell;
   height: 45px;
   padding: 0 0 0 17px;
   position: relative;
   text-align: center;
-  width: 25%;
+  width: 228px;
 }
 
 #main-menu li a {
