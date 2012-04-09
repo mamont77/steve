@@ -74,3 +74,8 @@
 .lt-ie8 .comment-unpublished > * {
   position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
 }
+
+.node h1 {
+  font-size: 1.125em;
+  color: #494949;
+}

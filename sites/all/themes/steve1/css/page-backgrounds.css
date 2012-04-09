@@ -9,30 +9,42 @@
  *   http://www.alistapart.com/articles/fauxcolumns/
  */
 
-
 body {
-    background-color: #39454f;
+  background-color: #39454f;
 }
 
 #page {
-    background-color: red;
-
+  -webkit-border-radius: 0 0 12px 12px;
+  -moz-border-radius: 0 0 12px 12px;
+  border-radius: 0 0 12px 12px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  box-shadow: 0 45px 60px -60px #000000;
 }
 
 #header {
-    background: url("../images/header.png") no-repeat scroll left top transparent;
-    height: 145px;
-    width: 980px;
+  background: url("../images/header.png") no-repeat scroll left top transparent;
+  height: 145px;
+  width: 980px;
 }
 
 #main {
-    background: url("../images/bg.png") repeat #465562;
-    /*background-color: green;*/
+  background: url("../images/bg.png") repeat #465562;
+  /*background-color: green;*/
 
 }
 
 #content {
-    background-color: #f6f6f6;
+
+  background-color: #f7f7f7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e8e8e8));
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #e8e8e8);
+  background-image: -moz-linear-gradient(top, #f7f7f7, #e8e8e8);
+  background-image: -ms-linear-gradient(top, #f7f7f7, #e8e8e8);
+  background-image: -o-linear-gradient(top, #f7f7f7, #e8e8e8);
+  background-image: linear-gradient(to bottom, #f7f7f7, #e8e8e8);
+
 }
 
 #footer {

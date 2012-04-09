@@ -169,3 +169,8 @@ padding: 0;
 #block-menu-menu-other-info a:hover {
   background-position: right -182px;
 }
+
+#block-menu-menu-other-info a.active
+{
+  color: #8E7445;
+}
