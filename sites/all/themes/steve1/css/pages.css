@@ -106,6 +106,18 @@ body {
 }
 
 .region-highlighted {
+  background-color: #88A3B3;
+  margin: 0 -10px 10px;
+  padding: 10px;
+  -webkit-border-radius: 12px 12px 0 0;
+  -moz-border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 0 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+}
+
+.region-highlighted .block {
+margin-bottom: 2px;
 }
 
 .breadcrumb {

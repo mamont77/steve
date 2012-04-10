@@ -40,7 +40,7 @@ li a.active {
 #navigation {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
-  padding: 0;
+  padding: 0 0 1em 0;
 }
 
 #navigation ul.links, /* Main menu and secondary menu links */

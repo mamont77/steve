@@ -136,3 +136,7 @@ form table .item-list ul {
 td.menu-disabled {
   background: #ccc;
 }
+
+#edit-search-block-form--2 {
+  width: 490px;
+}
