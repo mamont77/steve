@@ -36,9 +36,9 @@ body {
 
 #content {
   background: url("../images/bg.png") repeat #465562;
-  -webkit-border-radius: 12px 12px 0 0;
-  -moz-border-radius: 12px 12px 0 0;
-  border-radius: 12px 12px 0 0;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -50,7 +50,7 @@ body {
   background-image: -ms-linear-gradient(top, #f7f7f7, #e8e8e8);
   background-image: -o-linear-gradient(top, #f7f7f7, #e8e8e8);
   background-image: linear-gradient(to bottom, #f7f7f7, #e8e8e8);
-
+  box-shadow: 30px 45px 60px -60px #000000;
 }
 
 #footer {
