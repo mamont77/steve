@@ -135,7 +135,7 @@ li a.active {
 }
 
 #block-menu-menu-other-info .menu {
-padding: 0;
+  padding: 0;
   font-size: 18px;
 }
 
@@ -170,7 +170,6 @@ padding: 0;
   background-position: right -182px;
 }
 
-#block-menu-menu-other-info a.active
-{
+#block-menu-menu-other-info a.active {
   color: #8E7445;
 }
