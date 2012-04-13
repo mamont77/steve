@@ -457,7 +457,7 @@ ul,
 .item-list ul /* Drupal override */
 {
   /* Sets 1 unit of vertical rhythm on the top and bottom margin. */
-  margin: 1.5em 0;
+  margin: 0.5em 0;
 }
 
 .item-list ul li {

@@ -19,6 +19,7 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   box-shadow: 30px 45px 60px -60px #000000;
+  padding-bottom: 1em;
 }
 
 .block.first {
@@ -159,7 +160,8 @@ h2.block-title {
 }
 
 #block-menu-menu-other-info,
-#block-block-1
+#block-block-1,
+#block-system-help
 {
   background: none transparent;
   border-radius:0;
