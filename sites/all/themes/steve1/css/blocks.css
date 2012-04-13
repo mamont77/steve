@@ -158,8 +158,12 @@ h2.block-title {
   /* "Who's online" block for a list of the online users */
 }
 
-#block-menu-menu-other-info {
+#block-menu-menu-other-info,
+#block-block-1
+{
   background: none transparent;
+  border-radius:0;
+  box-shadow:none;
 }
 
 
