@@ -3,18 +3,21 @@ ZEN'S STYLESHEETS
 
 Don't panic!
 
-There are 21 CSS files in this sub-theme, but its not as bad as it first seems:
+There are 22 CSS files in this sub-theme, but its not as bad as it first seems:
 - The drupal7-reference.css is just a reference file and isn't used directly by
   your sub-theme. See below.
-- There are 6 CSS files whose names end in "-rtl.css". Those are CSS files
+- There are 7 CSS files whose names end in "-rtl.css". Those are CSS files
   needed to style content written in Right-to-Left languages, such as Arabic and
   Hebrew. If your website doesn't use such languages, you can safely delete all
   of those CSS files.
+- There are 2 example layout stylesheets in the layouts/ folder, but only one of
+  them is used at any time.
 - If you aren't using this sub-theme while doing wireframes of your site's
   functionality, you can remove wireframes.css from your sub-theme's .info file
   and delete the file as well.
+- One is just a print stylesheet!
 
-That leaves just 13 CSS files. (Okay, still quite a few, but better than 21.)
+That leaves just 11 CSS files. (Okay, still quite a few, but better than 22.)
 
 Why not just one stylesheet?
 
@@ -41,8 +44,6 @@ Why not just one stylesheet?
 - In addtion to following the normal CSS cascade, stylesheets are also organized
   relative to common Drupal template files. The most commonly used Drupal
   template files also have a corresponding stylesheet.
-- Drupal's page.tpl.php contains a lot of markup, so the CSS that applies to its
-  markup is broken down into a few related stylesheets.
 
 
 ORDER AND PURPOSE OF DEFAULT STYLESHEETS
@@ -56,18 +57,24 @@ theming Drupal websites.
 - normalize.css:
   This is the place where you should set the default styling for all HTML
   elements and standardize the styling across browsers. If you prefer a specific
-  HTML reset method, feel free to add it.
+  HTML reset method, feel free to use it instead of normalize.
+
+- layouts/responsive-sidebars.css:
+  Zen's default layout is based on the Zen Grids layout method. Despite the
+  name, it is an independent project from the Zen theme. Zen Grids is an
+  intuitive, flexible grid system that leverages the natural source order of
+  your content to make it easier to create fluid responsive designs. You can
+  learn more about Zen Grids at http://zengrids.com
+
+  The responsive-sidebars.css file is used by default, but these files are
+  designed to be easily replaced. If you are more familiar with a different CSS
+  layout method, such as GridSetApp, 960.gs, etc., you can replace the default
+  layout with your choice of layout CSS file.
 
 - layouts/fixed-width.css:
-  Zen's default layout is based on the Zen Columns layout method. The
-  fixed-width.css file is used by default, but these files are designed to be
-  easily replaced. If you are more familiar with a different CSS layout method,
-  such as Blueprint or 960.gs, you can replace the default layout with your
-  choice of layout CSS file.
-
-- page-backgrounds.css:
-  Layered backgrounds across scattered divs can be easier to manage if they are
-  centralized in one location.
+  This layout is based on the Zen Grids layout method, but uses a fixed pixel
+  width. It is not included by default in your theme's .info file, but is
+  provided as an option.
 
 - tabs.css:
   While most of the CSS rulesets in your sub-theme are guidelines without any
@@ -110,7 +117,7 @@ theming Drupal websites.
 
 In these stylesheets, we have included all of the classes and IDs from this
 theme's tpl.php files. We have also included many of the useful Drupal core
-styles to make it easier for theme developers to see them.
+selectors to make it easier for theme developers to discover them.
 
 
 STYLES FOR INTERNET EXPLORER

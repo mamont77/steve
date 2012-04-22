@@ -1,5 +1,9 @@
 Zen 7.x-5.x-dev, xxxx-xx-xx (development release)
 ---------------------------
+- #1539166: Remove page-backgrounds.css
+- #1420476 by maartenverbaarschot and JohnAlbin: a.button needs styling
+- #1532268: Allow sub-theme to import a module's Sass files
+- #1530204: Update meta tags to match Drupal 8
 - #1463138 by JohnAlbin and KrisBulman: Tabs css conflict with views
 - #1144240 by KrisBulman and JohnAlbin: Make menu block styling the same as theme's menu links in navigation region
 - #1527126: Inline link styling is broken

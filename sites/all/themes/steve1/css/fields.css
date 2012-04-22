@@ -3,8 +3,8 @@
  * Field Styling
  */
 
-
-.field { /* Wrapper for any field. */
+.field {
+  /* Wrapper for any field. */
 }
 
 /*
@@ -54,7 +54,8 @@
  * Field types (Contrib)
  */
 
-.field-type-datetime { /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
+.field-type-datetime {
+  /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */
 }
 
 .field-type-node-reference {
@@ -76,7 +77,8 @@
 .field-name-field-tags {
 }
 
-.field-name-field-FIELDNAME { /* Underscores in field name are replaced with dashes. */
+.field-name-field-FIELDNAME {
+  /* Underscores in field name are replaced with dashes. */
 }
 
 #webform-client-form-65 label {
@@ -85,7 +87,7 @@
 }
 
 #webform-client-form-65 #webform-component-description label {
- float: none;
+  float: none;
   width: auto;
 }
 
@@ -106,3 +108,33 @@
   width: 300px;
   /*box-shadow: 0 45px 60px -60px #AAAAAA;*/
 }
+
+.node .field-item
+{
+  margin-bottom: 1em;
+}
+
+.node.view-mode-full .field-name-field-images .field-item {
+  display: inline;
+  height: 245px;
+  margin-right: 30px;
+  width: 220px;
+}
+
+.node.node-teaser .field-name-field-images .field-item
+{
+  display: inline;
+  height: 245px;
+  margin-right: 30px;
+  width: 220px;
+}
+
+.node.node-teaser .field-name-field-files .field-item,
+.node.node-teaser .field-name-field-files .field-item .file-video
+{
+  /*display: inline;*/
+  /*height: 245px;*/
+  /*margin-right: 30px;*/
+  /*width: 220px;*/
+}
+
