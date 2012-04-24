@@ -49,6 +49,7 @@ h2.block-title {
   border-radius: 12px 12px 0 0;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
+  box-shadow: 0 45px 60px -60px #AAAAAA;
 }
 
 #block-aggregator-category-1 {
@@ -161,11 +162,23 @@ h2.block-title {
 
 #block-menu-menu-other-info,
 #block-block-1,
-#block-system-help
-{
+#block-system-help {
   background: none transparent;
-  border-radius:0;
-  box-shadow:none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.region-sidebar-second .block .view-content,
+.region-sidebar-second .block .more-link {
+  padding-left: 10px;
+  width: 174px;
+}
+
+#block-views-news-block .views-field-title a {
+  color: #5f6060;
+  font-size: 14px;
+  font-weight: bold;
+
 }
 
 
