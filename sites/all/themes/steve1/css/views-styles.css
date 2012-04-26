@@ -3,38 +3,45 @@
  * Views Styling
  */
 
-.page-news.page-views .views-row {
+.page-news.page-views .views-row,
+.page-new-cases.page-views .views-row {
   border-bottom: 2px dotted #2A2A2A;
   margin-bottom: 1em;
+  min-height: 165px;
 }
 
-.page-news.page-views .views-row .views-field-title {
+.page-news.page-views .views-row .views-field-title,
+.page-new-cases.page-views .views-row .views-field-title {
   text-align: center;
 }
 
-.page-news.page-views .views-row .views-field-title a {
+.page-news.page-views .views-row .views-field-title a,
+.page-new-cases.page-views .views-row .views-field-title a {
   color: #272727;
   font-size: 18px;
   text-decoration: none;
 }
 
-.page-news.page-views .views-row .views-field-field-article-image {
+.page-news.page-views .views-row .views-field-field-article-image,
+.page-new-cases.page-views .views-row .views-field-field-images {
   float: left;
   margin-right: 5px;
   width: 175px;
 }
 
-.page-news.page-views .views-row .views-field-created {
+.page-news.page-views .views-row .views-field-created,
+.page-new-cases.page-views .views-row .views-field-created {
   color: #1482cf;
   font-size: 11px;
   font-weight: bold;
 }
 
-.page-news.page-views .views-row .views-field-body {
+.page-news.page-views .views-row .views-field-body,
+.page-new-cases.page-views .views-row .views-field-body {
   margin-left: 180px;
 }
 
-
-.page-news.page-views .views-row .views-field-body p {
+.page-news.page-views .views-row .views-field-body p,
+.page-new-cases.page-views .views-row .views-field-body p {
   margin-top: 0;
 }

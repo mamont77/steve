@@ -27,6 +27,7 @@
 }
 
 .field-type-taxonomy-term-reference {
+  margin-bottom: .5em;
 }
 
 .field-type-number-integer {
@@ -138,3 +139,14 @@
   /*width: 220px;*/
 }
 
+.field-name-field-taxonomy .field-item {
+  display: inline;
+  margin-right: 1em;
+}
+
+.node-case .field-name-body {
+  background-color: #e3e6e8;
+  border: 1px solid #9aa0a5;
+  padding: 1em;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+function steve_cases_arhive_menu() {
+  $items['cases_arhive'] = array(
+    'title' => 'Архів справ',
+    'page callback' => 'steve_cases_arhive_page',
+    'access arguments' => array('access content'),
+    'weight' => 1,
+  );
+
+  return $items;
+}
+
+/**
+ * Menu callback; prints a listing of active nodes on the site.
+ */
+function steve_cases_arhive_page() {
+
+
+
+    $tree = taxonomy_get_tree(2);
+
+    $list[] = t("1 number was.");
+    $list[] = t("Second number was.");
+    $list[]= t('The total was.');
+    $list = array(
+        1,
+        2,
+        array(
+            3,
+            4,
+        ),
+        5
+    );
+
+    $render_array['page_example_arguments'] = array(
+      '#theme' => 'item_list',  // The theme function to apply to the #items
+      '#items' => $list,  // The list itself.
+      '#title' => t('Argument Information'),
+    );
+    return $render_array;
+}
+
+
+

@@ -16,7 +16,14 @@
 }
 
 .node .node-title {
-  /* Node title */
+
+}
+
+.node .node-title a {
+  color: #527898;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .node .user-picture {

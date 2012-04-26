@@ -395,6 +395,7 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
+  color: #fff;
 }
 
 /*
@@ -712,6 +713,7 @@ table {
   /* Add vertical rhythm margins. */
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  width: 100%;
 }
 
 /*
