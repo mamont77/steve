@@ -151,7 +151,7 @@ h3.title {
   border-bottom: 2px dotted #2A2A2A;
   border-top: 2px dotted #2A2A2A;
   color: #527898;
-  font-size: 1.5em;
+  font-size: 18px;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -288,4 +288,54 @@ ul.links li {
 
 .region-bottom {
   /* Wrapper for any blocks placed in the page bottom region */
+}
+
+/*.page-cases-arhive #content ul {*/
+/*padding-left: 50px;*/
+/*}*/
+
+.page-cases-arhive #content li {
+  list-style: none outside none;
+  margin-bottom: 5px;
+}
+
+.page-cases-arhive #content .nodesCount {
+  color: #1482CF;
+  font-size: 12px;
+}
+
+.page-cases-arhive #content .termName,
+.page-cases-arhive #content .caseTitle a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #272727;
+}
+
+.page-cases-arhive #content .termDescription,
+.page-cases-arhive #content .caseDescription {
+  font-size: 12px;
+  color: #494949;
+}
+
+.page-cases-arhive #content .folder {
+  background: url("../images/iconFolder.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 41px;
+  width: 41px;
+}
+
+.page-cases-arhive #content .caseWithVideo {
+  background: url("../images/iconNodeWithVideo.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 42px;
+  width: 42px;
+
+}
+
+.page-cases-arhive #content .caseWithOutVideo {
+  background: url("../images/iconNode.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 42px;
+  width: 42px;
+
 }
