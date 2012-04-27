@@ -221,3 +221,9 @@ body {
   padding-bottom: 29px;
   padding-left: 29px;
 }
+
+table {
+  text-align: center;
+  color: #7297C7;
+  width: 100%;
+}
