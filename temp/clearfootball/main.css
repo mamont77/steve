@@ -133,13 +133,15 @@ body {
 
 .mainrightcolumn img {
   float: left;
-  padding-left: 100px;
   left: 100px;
 }
 
 .left-mid {
-  padding: 0px 16px 0px 16px;
   background-color: #F1F4F8;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .left-bottom {
