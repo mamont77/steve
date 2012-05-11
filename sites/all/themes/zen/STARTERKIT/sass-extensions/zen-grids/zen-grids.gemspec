@@ -4,13 +4,13 @@ Gem::Specification.new do |s|
   s.name        = 'zen-grids'
 
   s.summary     = %q{A Compass plugin for Zen Grids, a fluid responsive grid system}
-  s.description = %q{Zen Grids includes a fluid responsive grid system with an intuitive, flexible layout mechanism that leverages the natural source order of your content. With an easy-to-use Sass mixin set, the Zen Grids system can be applied to an infinite number of layouts, including adaptive and fixed-width layouts.}
+  s.description = %q{Zen Grids is an intuitive, flexible grid system that leverages the natural source order of your content to make it easier to create fluid responsive designs. With an easy-to-use Sass mixin set, the Zen Grids system can be applied to an infinite number of layouts, including responsive, adaptive, fluid and fixed-width layouts.}
 
   s.homepage    = 'http://zengrids.com'
   s.rubyforge_project =
 
-  s.version     = '1.0.rc.2'
-  s.date        = '2012-04-03'
+  s.version     = '1.1'
+  s.date        = '2012-04-27'
 
   s.authors     = ['John Albin Wilkins']
   s.email       = 'virtually.johnalbin@gmail.com'
@@ -32,7 +32,9 @@ Gem::Specification.new do |s|
     templates/unit-tests/manifest.rb
     templates/unit-tests/README.txt
     templates/unit-tests/sass/function-zen-direction-flip.scss
+    templates/unit-tests/sass/function-zen-grid-item-width.scss
     templates/unit-tests/sass/function-zen-half-gutter.scss
+    templates/unit-tests/sass/function-zen-unit-width.scss
     templates/unit-tests/sass/zen-clear.scss
     templates/unit-tests/sass/zen-grid-container.scss
     templates/unit-tests/sass/zen-grid-flow-item.scss
@@ -40,7 +42,9 @@ Gem::Specification.new do |s|
     templates/unit-tests/sass/zen-grid-item.scss
     templates/unit-tests/sass/zen-nested-container.scss
     templates/unit-tests/test-results/function-zen-direction-flip.css
+    templates/unit-tests/test-results/function-zen-grid-item-width.css
     templates/unit-tests/test-results/function-zen-half-gutter.css
+    templates/unit-tests/test-results/function-zen-unit-width.css
     templates/unit-tests/test-results/zen-clear.css
     templates/unit-tests/test-results/zen-grid-container.css
     templates/unit-tests/test-results/zen-grid-flow-item.css

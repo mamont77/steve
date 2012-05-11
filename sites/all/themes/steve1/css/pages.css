@@ -54,6 +54,8 @@ body {
 
 #logo img {
   vertical-align: bottom;
+  border: 0;
+  margin: 0;
 }
 
 #name-and-slogan {
