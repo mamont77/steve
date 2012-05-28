@@ -6,3 +6,5 @@ sites/*/files
 sites/*/private
 /.idea
 /mamont
+/sites/all/modules/devel
+/sites/all/modules/examples
