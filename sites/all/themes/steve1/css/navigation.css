@@ -136,39 +136,64 @@ li a.active {
 
 #block-menu-menu-other-info .menu {
   padding: 0;
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 #block-menu-menu-other-info li {
   list-style-image: none;
   list-style-type: none;
-  background: url("../images/menuBgL.png") no-repeat scroll left -136px transparent;
   cursor: pointer;
-  height: 46px;
-  padding: 0 0 0 17px;
+  margin-bottom: 2px;
+  padding: 4px 6px;
   position: relative;
   text-align: center;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M0YzVjOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQlIiBzdG9wLWNvbG9yPSIjYzJjMmM0IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjIlIiBzdG9wLWNvbG9yPSIjZDVkM2Q0IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMzMlIiBzdG9wLWNvbG9yPSIjZGNkOWQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjZGVkYmRiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTMlIiBzdG9wLWNvbG9yPSIjZGRkYWRhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTglIiBzdG9wLWNvbG9yPSIjY2NjY2NjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNjIlIiBzdG9wLWNvbG9yPSIjYzVjNmM3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzYlIiBzdG9wLWNvbG9yPSIjYThhY2IyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iODclIiBzdG9wLWNvbG9yPSIjOGM5MjliIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTMlIiBzdG9wLWNvbG9yPSIjN2Y4NDhkIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTYlIiBzdG9wLWNvbG9yPSIjODc4YjkyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTglIiBzdG9wLWNvbG9yPSIjOTQ5NTlhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFkMWQxZCIgc3RvcC1vcGFjaXR5PSIwLjQ0Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(top, rgba(196, 197, 200, 1) 0%, rgba(194, 194, 196, 1) 4%, rgba(213, 211, 212, 1) 22%, rgba(220, 217, 217, 1) 33%, rgba(222, 219, 219, 1) 40%, rgba(221, 218, 218, 1) 53%, rgba(204, 204, 204, 1) 58%, rgba(197, 198, 199, 1) 62%, rgba(168, 172, 178, 1) 76%, rgba(140, 146, 155, 1) 87%, rgba(127, 132, 141, 1) 93%, rgba(135, 139, 146, 1) 96%, rgba(148, 149, 154, 1) 98%, rgba(29, 29, 29, 0.44) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(196, 197, 200, 1)), color-stop(4%, rgba(194, 194, 196, 1)), color-stop(22%, rgba(213, 211, 212, 1)), color-stop(33%, rgba(220, 217, 217, 1)), color-stop(40%, rgba(222, 219, 219, 1)), color-stop(53%, rgba(221, 218, 218, 1)), color-stop(58%, rgba(204, 204, 204, 1)), color-stop(62%, rgba(197, 198, 199, 1)), color-stop(76%, rgba(168, 172, 178, 1)), color-stop(87%, rgba(140, 146, 155, 1)), color-stop(93%, rgba(127, 132, 141, 1)), color-stop(96%, rgba(135, 139, 146, 1)), color-stop(98%, rgba(148, 149, 154, 1)), color-stop(100%, rgba(29, 29, 29, 0.44))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(196, 197, 200, 1) 0%, rgba(194, 194, 196, 1) 4%, rgba(213, 211, 212, 1) 22%, rgba(220, 217, 217, 1) 33%, rgba(222, 219, 219, 1) 40%, rgba(221, 218, 218, 1) 53%, rgba(204, 204, 204, 1) 58%, rgba(197, 198, 199, 1) 62%, rgba(168, 172, 178, 1) 76%, rgba(140, 146, 155, 1) 87%, rgba(127, 132, 141, 1) 93%, rgba(135, 139, 146, 1) 96%, rgba(148, 149, 154, 1) 98%, rgba(29, 29, 29, 0.44) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(196, 197, 200, 1) 0%, rgba(194, 194, 196, 1) 4%, rgba(213, 211, 212, 1) 22%, rgba(220, 217, 217, 1) 33%, rgba(222, 219, 219, 1) 40%, rgba(221, 218, 218, 1) 53%, rgba(204, 204, 204, 1) 58%, rgba(197, 198, 199, 1) 62%, rgba(168, 172, 178, 1) 76%, rgba(140, 146, 155, 1) 87%, rgba(127, 132, 141, 1) 93%, rgba(135, 139, 146, 1) 96%, rgba(148, 149, 154, 1) 98%, rgba(29, 29, 29, 0.44) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(196, 197, 200, 1) 0%, rgba(194, 194, 196, 1) 4%, rgba(213, 211, 212, 1) 22%, rgba(220, 217, 217, 1) 33%, rgba(222, 219, 219, 1) 40%, rgba(221, 218, 218, 1) 53%, rgba(204, 204, 204, 1) 58%, rgba(197, 198, 199, 1) 62%, rgba(168, 172, 178, 1) 76%, rgba(140, 146, 155, 1) 87%, rgba(127, 132, 141, 1) 93%, rgba(135, 139, 146, 1) 96%, rgba(148, 149, 154, 1) 98%, rgba(29, 29, 29, 0.44) 100%); /* IE10+ */
+  background: linear-gradient(top, rgba(196, 197, 200, 1) 0%, rgba(194, 194, 196, 1) 4%, rgba(213, 211, 212, 1) 22%, rgba(220, 217, 217, 1) 33%, rgba(222, 219, 219, 1) 40%, rgba(221, 218, 218, 1) 53%, rgba(204, 204, 204, 1) 58%, rgba(197, 198, 199, 1) 62%, rgba(168, 172, 178, 1) 76%, rgba(140, 146, 155, 1) 87%, rgba(127, 132, 141, 1) 93%, rgba(135, 139, 146, 1) 96%, rgba(148, 149, 154, 1) 98%, rgba(29, 29, 29, 0.44) 100%); /* W3C */
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#c4c5c8', endColorstr = '#701d1d1d', GradientType = 0); *//* IE6-8 */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Для Firefox */
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Для Safari и Chrome */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 
 #block-menu-menu-other-info li:hover {
-  background-position: left -182px;
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2MxOWMyYiIgc3RvcC1vcGFjaXR5PSIwLjg0Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjIlIiBzdG9wLWNvbG9yPSIjZTNjODc3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNlM2NhN2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMSUiIHN0b3AtY29sb3I9IiNlM2QxOTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxNyUiIHN0b3AtY29sb3I9IiNlNGQ1YTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIyNiUiIHN0b3AtY29sb3I9IiNlN2Q5YTciIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNlYWRiYTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MiUiIHN0b3AtY29sb3I9IiNlNmQ2YTAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1NCUiIHN0b3AtY29sb3I9IiNkNGIxNjUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1NyUiIHN0b3AtY29sb3I9IiNjN2EyNTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiNhZThlNGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3OCUiIHN0b3AtY29sb3I9IiM5Yzg1NTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4MyUiIHN0b3AtY29sb3I9IiM5ODg2NTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4NyUiIHN0b3AtY29sb3I9IiM5ZThkNTciIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5MSUiIHN0b3AtY29sb3I9IiNhZjk5NTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5MyUiIHN0b3AtY29sb3I9IiNiZWE1NTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5NiUiIHN0b3AtY29sb3I9IiNkMmI1NTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OCUiIHN0b3AtY29sb3I9IiNiMmI1YmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMzgiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+  background: -moz-linear-gradient(top, rgba(193, 156, 43, 0.84) 0%, rgba(227, 200, 119, 1) 2%, rgba(227, 202, 122, 1) 4%, rgba(227, 209, 148, 1) 11%, rgba(228, 213, 163, 1) 17%, rgba(231, 217, 167, 1) 26%, rgba(234, 219, 169, 1) 50%, rgba(230, 214, 160, 1) 52%, rgba(212, 177, 101, 1) 54%, rgba(199, 162, 86, 1) 57%, rgba(174, 142, 79, 1) 70%, rgba(156, 133, 81, 1) 78%, rgba(152, 134, 85, 1) 83%, rgba(158, 141, 87, 1) 87%, rgba(175, 153, 86, 1) 91%, rgba(190, 165, 89, 1) 93%, rgba(210, 181, 88, 1) 96%, rgba(178, 181, 186, 1) 98%, rgba(0, 0, 0, 0.38) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(193, 156, 43, 0.84)), color-stop(2%, rgba(227, 200, 119, 1)), color-stop(4%, rgba(227, 202, 122, 1)), color-stop(11%, rgba(227, 209, 148, 1)), color-stop(17%, rgba(228, 213, 163, 1)), color-stop(26%, rgba(231, 217, 167, 1)), color-stop(50%, rgba(234, 219, 169, 1)), color-stop(52%, rgba(230, 214, 160, 1)), color-stop(54%, rgba(212, 177, 101, 1)), color-stop(57%, rgba(199, 162, 86, 1)), color-stop(70%, rgba(174, 142, 79, 1)), color-stop(78%, rgba(156, 133, 81, 1)), color-stop(83%, rgba(152, 134, 85, 1)), color-stop(87%, rgba(158, 141, 87, 1)), color-stop(91%, rgba(175, 153, 86, 1)), color-stop(93%, rgba(190, 165, 89, 1)), color-stop(96%, rgba(210, 181, 88, 1)), color-stop(98%, rgba(178, 181, 186, 1)), color-stop(100%, rgba(0, 0, 0, 0.38))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(193, 156, 43, 0.84) 0%, rgba(227, 200, 119, 1) 2%, rgba(227, 202, 122, 1) 4%, rgba(227, 209, 148, 1) 11%, rgba(228, 213, 163, 1) 17%, rgba(231, 217, 167, 1) 26%, rgba(234, 219, 169, 1) 50%, rgba(230, 214, 160, 1) 52%, rgba(212, 177, 101, 1) 54%, rgba(199, 162, 86, 1) 57%, rgba(174, 142, 79, 1) 70%, rgba(156, 133, 81, 1) 78%, rgba(152, 134, 85, 1) 83%, rgba(158, 141, 87, 1) 87%, rgba(175, 153, 86, 1) 91%, rgba(190, 165, 89, 1) 93%, rgba(210, 181, 88, 1) 96%, rgba(178, 181, 186, 1) 98%, rgba(0, 0, 0, 0.38) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(193, 156, 43, 0.84) 0%, rgba(227, 200, 119, 1) 2%, rgba(227, 202, 122, 1) 4%, rgba(227, 209, 148, 1) 11%, rgba(228, 213, 163, 1) 17%, rgba(231, 217, 167, 1) 26%, rgba(234, 219, 169, 1) 50%, rgba(230, 214, 160, 1) 52%, rgba(212, 177, 101, 1) 54%, rgba(199, 162, 86, 1) 57%, rgba(174, 142, 79, 1) 70%, rgba(156, 133, 81, 1) 78%, rgba(152, 134, 85, 1) 83%, rgba(158, 141, 87, 1) 87%, rgba(175, 153, 86, 1) 91%, rgba(190, 165, 89, 1) 93%, rgba(210, 181, 88, 1) 96%, rgba(178, 181, 186, 1) 98%, rgba(0, 0, 0, 0.38) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(193, 156, 43, 0.84) 0%, rgba(227, 200, 119, 1) 2%, rgba(227, 202, 122, 1) 4%, rgba(227, 209, 148, 1) 11%, rgba(228, 213, 163, 1) 17%, rgba(231, 217, 167, 1) 26%, rgba(234, 219, 169, 1) 50%, rgba(230, 214, 160, 1) 52%, rgba(212, 177, 101, 1) 54%, rgba(199, 162, 86, 1) 57%, rgba(174, 142, 79, 1) 70%, rgba(156, 133, 81, 1) 78%, rgba(152, 134, 85, 1) 83%, rgba(158, 141, 87, 1) 87%, rgba(175, 153, 86, 1) 91%, rgba(190, 165, 89, 1) 93%, rgba(210, 181, 88, 1) 96%, rgba(178, 181, 186, 1) 98%, rgba(0, 0, 0, 0.38) 100%); /* IE10+ */
+  background: linear-gradient(top, rgba(193, 156, 43, 0.84) 0%, rgba(227, 200, 119, 1) 2%, rgba(227, 202, 122, 1) 4%, rgba(227, 209, 148, 1) 11%, rgba(228, 213, 163, 1) 17%, rgba(231, 217, 167, 1) 26%, rgba(234, 219, 169, 1) 50%, rgba(230, 214, 160, 1) 52%, rgba(212, 177, 101, 1) 54%, rgba(199, 162, 86, 1) 57%, rgba(174, 142, 79, 1) 70%, rgba(156, 133, 81, 1) 78%, rgba(152, 134, 85, 1) 83%, rgba(158, 141, 87, 1) 87%, rgba(175, 153, 86, 1) 91%, rgba(190, 165, 89, 1) 93%, rgba(210, 181, 88, 1) 96%, rgba(178, 181, 186, 1) 98%, rgba(0, 0, 0, 0.38) 100%); /* W3C */
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#d6c19c2b', endColorstr = '#61000000', GradientType = 0); *//* IE6-8 */
 }
 
 #block-menu-menu-other-info li a {
-  background: url("../images/menuBgR.png") no-repeat scroll right -136px transparent;
+  background: url("../images/menuItemCollapsed.png") no-repeat scroll right center transparent;
   color: #272727;
   display: block;
-  height: 46px;
-  line-height: 43px;
-  padding: 0 17px 0 0;
+  /*height: 46px;*/
+  line-height: 20px;
+  padding: 7px 20px 7px 0;
   text-decoration: none;
   text-shadow: -1px -1px #C2C2C2;
 }
 
-#block-menu-menu-other-info a:hover {
-  background-position: right -182px;
-}
-
 #block-menu-menu-other-info a.active {
   color: #8E7445;
+}
+
+#block-menu-menu-other-info li ul {
+  display: none;
 }
