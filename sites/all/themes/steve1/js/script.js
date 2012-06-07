@@ -11,9 +11,11 @@
 // - http://drupal.org/node/1446420
 // - http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth
 (function ($, Drupal, window, document, undefined) {
+    console.log('test 0', $('.view-cases-categories'));
+    if (0 < $('.view-cases-categories').length) {
+        console.log('test');
 
-
-// Place your code here.
+    }
 
 
 })(jQuery, Drupal, this, this.document);

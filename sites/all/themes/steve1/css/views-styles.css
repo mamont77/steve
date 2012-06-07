@@ -45,3 +45,38 @@
 .page-new-cases.page-views .views-row .views-field-body p {
   margin-top: 0;
 }
+
+.view-cases-categories .item-list h3 {
+  background: url("/sites/all/themes/steve1/images/iconFolder.png") no-repeat scroll 0 0 transparent;
+  color: #272727;
+  font-size: 14px;
+  font-weight: bold;
+  height: 41px;
+  line-height: 35px;
+  padding-left: 45px;
+}
+
+.view-cases-categories .views-row
+{
+  background: url("/sites/all/themes/steve1/images/iconNode.png") no-repeat scroll 0 0 transparent;
+  list-style: none outside none;
+  margin-bottom: 1em;
+  padding-left: 45px;
+}
+
+
+.view-cases-categories .views-field-title a {
+  color: #272727;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.view-cases-categories .views-field-field-files {
+  display: none;
+}
+
+.view-cases-categories .views-field-body {
+  color: #494949;
+  font-size: 12px;
+}
+
