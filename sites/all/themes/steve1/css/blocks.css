@@ -102,6 +102,24 @@ h2.block-title {
 
 #block-poll-recent {
   /* "Most recent poll" block */
+
+}
+
+#block-poll-recent .poll {
+  padding: 0px 5px 0px 5px;
+}
+
+#block-poll-recent .poll .title {
+  font-weight: bold;
+  margin: .5em 0;
+}
+
+#block-poll-recent .poll .total {
+  /*font-size: 11px;*/
+}
+
+#block-poll-recent .links .links li {
+  font-size: 10px;
 }
 
 #block-profile-author-information {
@@ -178,7 +196,24 @@ h2.block-title {
   color: #5f6060;
   font-size: 14px;
   font-weight: bold;
-
 }
 
+#block-faq-ask-unanswered p {
+  padding-left: 1em;
+}
 
+#block-faq-ask-unanswered .block-title {
+  font-size: 10px;
+}
+
+#block-block-2 {
+  padding: .5em 1em;
+}
+
+#block-block-2 a.facebook {
+  background: url("../images/facebook_icon.gif") no-repeat scroll left top transparent;
+  display: block;
+  height: 32px;
+  margin-bottom: .5em;
+  padding-left: 40px;
+}

@@ -6,22 +6,35 @@
 
 .comments { /* Wrapper for the list of comments and its title */
   margin: 1.5em 0;
+  border: 1px solid #cccccc;
+  padding: 1em;
 }
 
 .comments h2.title { /* Heading for the list of comments */
+  background-color: #cccccc;
+  padding: 5px;
+  margin-bottom: 1em;
 }
 
 .comments h2.comment-form { /* Heading for the comment form */
 }
 
 .comment { /* Wrapper for a single comment */
+  border-bottom: 1px dotted #cccccc;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  padding: .5em;
+  border-radius: 10px;
 }
 
 .comment-preview { /* Preview of the comment before submitting new or updated comment */
   background-color: #ffffea; /* Drupal core will use a #ffffea background. See #1110842 */
 }
 
-.comment.new { /* A new comment since the user last viewed the page. */
+.comment .new { /* A new comment since the user last viewed the page. */
+  float: right;
+  padding: .5em;
+  border-radius: 10px;
 }
 
 .comment.first { /* The first comment in the list of comments */
@@ -46,6 +59,7 @@
 }
 
 h3.comment-title { /* Comment title */
+  margin: .5em 0;
 }
 
 .comment .new { /* "New" marker for comments that are new for the current user */
@@ -56,6 +70,8 @@ h3.comment-title { /* Comment title */
 }
 
 .comment .submitted { /* The "posted by" information */
+  font-size: 11px;
+  color: #666666;
 }
 
 .comment .permalink { /* Comment's permalink wrapper */
