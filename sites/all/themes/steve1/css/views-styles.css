@@ -7,7 +7,8 @@
 .page-new-cases.page-views .views-row {
   border-bottom: 2px dotted #2A2A2A;
   margin-bottom: 1em;
-  min-height: 165px;
+  /*min-height: 165px;*/
+  clear: both;
 }
 
 .page-news.page-views .views-row .views-field-title,
@@ -38,7 +39,8 @@
 
 .page-news.page-views .views-row .views-field-body,
 .page-new-cases.page-views .views-row .views-field-body {
-  margin-left: 180px;
+  /*margin-left: 180px;*/
+  margin-bottom: .5em;
 }
 
 .page-news.page-views .views-row .views-field-body p,
@@ -54,6 +56,7 @@
   height: 41px;
   line-height: 35px;
   padding-left: 45px;
+  text-transform: uppercase;
 }
 
 .view-cases-categories .views-row
@@ -62,11 +65,12 @@
   list-style: none outside none;
   margin-bottom: 1em;
   padding-left: 45px;
+  min-height: 4em;
 }
 
 
 .view-cases-categories .views-field-title a {
-  color: #272727;
+  color: #626200;
   font-size: 14px;
   font-weight: bold;
 }

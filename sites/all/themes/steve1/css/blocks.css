@@ -216,4 +216,6 @@ h2.block-title {
   height: 32px;
   margin-bottom: .5em;
   padding-left: 40px;
+  color: #272727;
+  text-decoration: none;
 }
