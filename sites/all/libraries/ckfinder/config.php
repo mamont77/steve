@@ -60,8 +60,8 @@ ATTENTION: The trailing slash is required.
 */
 $baseDir = resolveUrl($baseUrl);
 
-//require_once '/var/www/zakonipravo/zakon-i-pravo.net/sites/all/modules/ckeditor/includes/filemanager.config.php';
-require_once '../../../../../includes/filemanager.config.php';
+require_once '/var/www/zakonipravo/zakon-i-pravo.net/sites/all/modules/ckeditor/includes/filemanager.config.php';
+//require_once '../../../../../includes/filemanager.config.php';
 
 //require_once '/home/steve.test/www/sites/all/modules/ckeditor/includes/filemanager.config.php';
 //require_once '../../modules/ckeditor/includes/filemanager.config.php';

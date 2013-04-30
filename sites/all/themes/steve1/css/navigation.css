@@ -72,7 +72,7 @@ li a.active {
 
 #main-menu ul {
   /*display: table;*/
-  font-size: 13px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -105,7 +105,7 @@ li a.active {
   white-space: nowrap;
 }
 
-#main-menu a:hover {
+#main-menu a:hover, #main-menu a.hover {
   background-position: right -45px;
 }
 

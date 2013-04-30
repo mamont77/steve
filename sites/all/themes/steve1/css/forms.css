@@ -72,6 +72,7 @@
 
 #block-search-form {
   /* Wrapper for the search form */
+  text-align: center;
 }
 
 /*
@@ -151,6 +152,31 @@ td.menu-disabled {
   background: #ccc;
 }
 
-#edit-search-block-form--2 {
+#search-block-form #edit-search-block-form--2 {
   width: 490px;
+}
+
+#search-block-form #edit-search-block-form--2 {
+    background: url("../images/searchBg.png") repeat-x scroll left top transparent;
+    border: medium none;
+    color: #494949;
+    height: 34px;
+    padding: 0 10px;
+    width: 490px;
+}
+
+#search-block-form #edit-submit,
+#search-block-form #edit-submit--2 {
+    background: url("../images/searchButton.png") no-repeat scroll center top transparent;
+    border: medium none;
+    color: transparent;
+    cursor: pointer;
+    font-size: 0;
+    height: 20px;
+    margin: 0 0 0 -28px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    top: -5px;
+    width: 20px;
 }

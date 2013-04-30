@@ -26,7 +26,7 @@
                             url = element.find('.views-field-title a').attr('href'),
                             imgHeight = element.find('.views-field-body img').height(),
                             body = element.find('.views-field-body');
-                    body.append('<a href="' + url + '">детальніше...</a>');
+                    //body.append('<a href="' + url + '">детальніше...</a>');
                     if (imgHeight) {
                         body.height(imgHeight + 20);
                     }
@@ -45,7 +45,7 @@
                             imgHeight = element.find('.views-field-field-article-image img').height(),
                             body = element.find('.views-field-body');
 //                    body.append('<a href="' + url + '">' + Drupal.t('read more') + '...</a>');
-                    body.append('<a href="' + url + '">детальніше...</a>');
+                    //body.append('<a href="' + url + '">детальніше...</a>');
                     if (imgHeight) {
                         body.height(imgHeight + 20);
                     }
@@ -54,4 +54,24 @@
             }
         }
     };
+
+    Drupal.behaviors.mainMenuHover = {
+        attach:function (context, settings) {
+			$('#main-menu li').hover(
+				function () {
+					$(this).find('a').addClass("hover");
+				},
+				function () {
+					$(this).find('a').removeClass("hover");
+				}
+			);
+        }
+    };
+
+    Drupal.behaviors.searchPlaceholder = {
+        attach:function (context, settings) {
+			$('#edit-search-block-form--2').attr('placeholder', 'пошук');
+        }
+    };
+
 })(jQuery);

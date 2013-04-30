@@ -197,8 +197,10 @@ textarea {
 
    */
 
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
-  color: #494949;
+  /*font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;*/
+  /*font-family: Tahoma, "DejaVu Sans", sans-serif;*/
+  font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+  color: #373737;
 }
 
 /*

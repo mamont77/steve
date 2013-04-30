@@ -11,16 +11,17 @@
   clear: both;
 }
 
-.page-news.page-views .views-row .views-field-title,
-.page-new-cases.page-views .views-row .views-field-title {
+.page-news.page-views .views-row .views-field-title/*,
+.page-new-cases.page-views .views-row .views-field-title*/ {
   text-align: center;
 }
 
 .page-news.page-views .views-row .views-field-title a,
 .page-new-cases.page-views .views-row .views-field-title a {
-  color: #272727;
-  font-size: 18px;
+  color: #1482CF;
+  font-size: 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .page-news.page-views .views-row .views-field-field-article-image,
@@ -32,15 +33,20 @@
 
 .page-news.page-views .views-row .views-field-created,
 .page-new-cases.page-views .views-row .views-field-created {
-  color: #1482cf;
+  color: #646464;
   font-size: 11px;
   font-weight: bold;
+  text-align: right;
+  /*float: right;*/
 }
 
 .page-news.page-views .views-row .views-field-body,
-.page-new-cases.page-views .views-row .views-field-body {
+.page-new-cases.page-views .views-row .views-field-body,
+.page-new-cases.page-views .views-row .views-field-field-resume
+{
   /*margin-left: 180px;*/
   margin-bottom: .5em;
+  text-align: justify;
 }
 
 .page-news.page-views .views-row .views-field-body p,
@@ -48,15 +54,23 @@
   margin-top: 0;
 }
 
-.view-cases-categories .item-list h3 {
-  background: url("/sites/all/themes/steve1/images/iconFolder.png") no-repeat scroll 0 0 transparent;
-  color: #272727;
-  font-size: 14px;
-  font-weight: bold;
-  height: 41px;
-  line-height: 35px;
-  padding-left: 45px;
-  text-transform: uppercase;
+.view-cases-categories .view-subcategories {
+  margin-bottom: 1.5em;
+}
+
+.view-cases-categories .item-list h3,
+.view-cases-categories .view-subcategories .views-field-name a
+{
+    background: url("/sites/all/themes/steve1/images/iconFolder.png") no-repeat scroll 0 0 transparent;
+    color: #272727;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 41px;
+    line-height: 35px;
+    margin-right: 5px;
+    padding-left: 45px;
+    /*text-transform: uppercase;*/
 }
 
 .view-cases-categories .views-row
@@ -70,7 +84,7 @@
 
 
 .view-cases-categories .views-field-title a {
-  color: #626200;
+  color: /*#626200*/ #1482CF;
   font-size: 14px;
   font-weight: bold;
 }
@@ -84,3 +98,6 @@
   font-size: 12px;
 }
 
+.view-news .views-field-field-taxonomy {
+  float: right;
+}
