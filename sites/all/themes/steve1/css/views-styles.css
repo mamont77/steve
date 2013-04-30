@@ -5,10 +5,10 @@
 
 .page-news.page-views .views-row,
 .page-new-cases.page-views .views-row {
-  border-bottom: 2px dotted #2A2A2A;
-  margin-bottom: 1em;
-  /*min-height: 165px;*/
-  clear: both;
+    border-bottom: 2px dotted #2A2A2A;
+    clear: both;
+    margin-bottom: 1.5em;
+    padding-bottom: 1em;
 }
 
 .page-news.page-views .views-row .views-field-title/*,
@@ -54,12 +54,18 @@
   margin-top: 0;
 }
 
-.view-cases-categories .view-subcategories {
+.view-cases-categories .view-header .view-subcategories {
   margin-bottom: 1.5em;
 }
 
+.view-header .view-subcategories li.views-row
+{
+    background: none repeat scroll 0 0 transparent;
+    padding-left: 0;
+}
+
 .view-cases-categories .item-list h3,
-.view-cases-categories .view-subcategories .views-field-name a
+.view-cases-categories .view-header .view-subcategories .views-field-name a
 {
     background: url("/sites/all/themes/steve1/images/iconFolder.png") no-repeat scroll 0 0 transparent;
     color: #272727;
@@ -72,6 +78,8 @@
     padding-left: 45px;
     /*text-transform: uppercase;*/
 }
+
+
 
 .view-cases-categories .views-row
 {
