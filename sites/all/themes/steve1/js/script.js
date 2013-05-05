@@ -78,7 +78,7 @@
         attach:function (context, settings) {
 			if ($('.view-header .view-subcategories .view-content').length) {
 				$('.view-cases-categories .view-content, .view-cases-categories .pager').hide();
-				$('.view-header .view-subcategories .view-content').show();
+				$('.view-header .view-subcategories .view-content, .view-header .view-category-description .view-content').show();
 			}
 
         }

@@ -139,6 +139,13 @@
   /*width: 220px;*/
 }
 
+.field-name-field-resume.field-type-text-long {
+    border-left: 10px double #CCCCCC;
+    color: #555555;
+    padding-left: 1em;
+    text-align: justify;
+}
+
 .field-name-field-taxonomy .field-item {
   display: inline;
   margin-right: 1em;

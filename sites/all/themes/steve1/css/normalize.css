@@ -229,11 +229,12 @@ a:visited {
 }
 
 a:hover, a:focus {
-  color: #1C7CFF;
+  color: #2219B2;
 }
 
 a:active {
   color: #1C7CFF;
+  font-weight: bold;
 }
 
 /*

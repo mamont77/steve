@@ -79,8 +79,6 @@
     /*text-transform: uppercase;*/
 }
 
-
-
 .view-cases-categories .views-row
 {
   background: url("/sites/all/themes/steve1/images/iconNode.png") no-repeat scroll 0 0 transparent;
@@ -88,6 +86,14 @@
   margin-bottom: 1em;
   padding-left: 45px;
   min-height: 4em;
+}
+
+.view-cases-categories .view-category-description .views-row
+{
+  background: none transparent;
+  margin-bottom: 1em;
+  padding: 0;
+  text-align: justify;
 }
 
 
@@ -108,4 +114,13 @@
 
 .view-news .views-field-field-taxonomy {
   float: right;
+}
+
+.view-cases-categories .view-header .view-subcategories .views-field-name a:hover,
+.view-cases-categories .views-field-title a:hover,
+.page-news.page-views .views-row .views-field-title a:hover,
+.page-new-cases.page-views .views-row .views-field-title a:hover
+{
+    color: #2219B2;
+    text-decoration: none;
 }
