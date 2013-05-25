@@ -144,6 +144,7 @@
     color: #555555;
     padding-left: 1em;
     text-align: justify;
+	display: inline-block;
 }
 
 .field-name-field-taxonomy .field-item {

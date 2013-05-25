@@ -341,8 +341,20 @@ ul.links li {
   width: 42px;
 }
 
-.faq-question {
+.faq .faq-question {
     color: #1482CF;
     font-size: 14px;
     font-weight: bold;
+}
+
+.faq .faq-description {
+    background-color: #FFFFFF;
+    border: 1px solid #9AA0A5;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#faq-node-form .form-item-title #edit-title {
+  width: 330px !important;
 }

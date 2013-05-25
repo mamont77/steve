@@ -7,8 +7,10 @@
 .page-new-cases.page-views .views-row {
     border-bottom: 2px dotted #2A2A2A;
     clear: both;
+    display: inline-block;
     margin-bottom: 1.5em;
     padding-bottom: 1em;
+    width: 100%;
 }
 
 .page-news.page-views .views-row .views-field-title/*,
@@ -47,6 +49,11 @@
   /*margin-left: 180px;*/
   margin-bottom: .5em;
   text-align: justify;
+}
+
+.page-new-cases.page-views .views-row .views-field-field-resume
+{
+  display: inline-block;
 }
 
 .page-news.page-views .views-row .views-field-body p,
@@ -92,8 +99,11 @@
 {
   background: none transparent;
   margin-bottom: 1em;
-  padding: 0;
+  padding: 0 1em 0 1em;
   text-align: justify;
+    background-color: #FFFFFF;
+    border: 1px solid #9AA0A5;
+    border-radius: 4px 4px 4px 4px;
 }
 
 
