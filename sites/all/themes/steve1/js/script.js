@@ -18,24 +18,27 @@
         }
     };
 
+/*
     Drupal.behaviors.frontRowHeight = {
         attach:function (context, settings) {
             if ($('.view-display-id-page_1').length) {
                 $('.view-display-id-page_1 .views-row').each(function () {
                     var element = $(this),
-                            url = element.find('.views-field-title a').attr('href'),
-                            imgHeight = element.find('.views-field-body img').height(),
-                            body = element.find('.views-field-body');
+                            //url = element.find('.views-field-title a').attr('href'),
+                            //imgHeight = element.find('.views-field-body img').height(),
+                            //body = element.find('.views-field-body');
                     //body.append('<a href="' + url + '">детальніше...</a>');
-                    if (imgHeight) {
-                        body.height(imgHeight + 20);
-                    }
+                    //if (imgHeight) {
+                        //body.height(imgHeight + 20);
+                    //}
 //                    console.log(link);
                 });
             }
         }
     };
+*/
 
+/*
     Drupal.behaviors.newsRowHeight = {
         attach:function (context, settings) {
             if ($('.view-display-id-page').length) {
@@ -54,6 +57,7 @@
             }
         }
     };
+*/
 
     Drupal.behaviors.mainMenuHover = {
         attach:function (context, settings) {
@@ -80,7 +84,15 @@
 				$('.view-cases-categories .view-content, .view-cases-categories .pager').hide();
 				$('.view-header .view-subcategories .view-content, .view-header .view-category-description .view-content').show();
 			}
+        }
+    };
 
+    Drupal.behaviors.hideTitlesInFaqForm = {
+        attach:function (context, settings) {
+			if ($('.page-faq-page #edit-title').length) {
+				jQuery('.page-faq-page #edit-title').attr('value', 'коротка назва питання');
+				$('.page-faq-page .form-item-title').hide();
+			}
         }
     };
 

@@ -2,8 +2,6 @@ Changes May 5th 2011
 -----------------------------
 Removed surplus $void parameter from hook_menu
 
-Changes June 6th 2011
+August 12th 2011
 -----------------------------
-Added form weight in settings
-
-
+Fixed permission bug http://drupal.org/node/1237876
